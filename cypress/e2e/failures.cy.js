@@ -8,7 +8,11 @@ describe('page', () => {
     console.log('test end')
   })
 
-  it('works', () => {
+  it('fails', () => {
     cy.visit('https://example.cypress.io')
+
+    cy.then(() => {
+      expect(false).to.eq(true)
+    })
   })
 })
