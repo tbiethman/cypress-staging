@@ -1,7 +1,7 @@
 const { getAccessibilityResults } = require('@cypress/extract-cloud-results')
 
 getAccessibilityResults({
-  runTags: [process.env.CYPRESS_RUN_TAG]
+  // runTags: [process.env.CYPRESS_RUN_TAG]
 }).then((report) => {
   console.log('POC - verifyAccessibilityResults received data', report)
   
