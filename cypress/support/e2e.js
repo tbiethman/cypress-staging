@@ -18,3 +18,11 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+before(() => {
+  console.log('do the tests')
+})
+
+after(() => {
+  console.log('all the things done')
+})
