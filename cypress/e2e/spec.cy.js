@@ -7,4 +7,8 @@ describe('page', () => {
   it('still works', () => {
     cy.visit('https://example.cypress.io')
   })
+
+  it('still works (still)', () => {
+    cy.visit('https://example.cypress.io')
+  })
 })
